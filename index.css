@@ -1,0 +1,79 @@
+body{
+
+}
+
+.header {
+	border: 2px solid;
+	box-shadow: 3px 2px 1px;
+	border-radius: 5px;
+	width: 350px;
+	height: 100px;
+	margin: 25px auto;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 2em;
+		background-color: lightgrey;
+}
+
+.inputContainer {
+	border: 2px solid;
+	box-shadow: 3px 2px 1px;
+	width: 650px;
+	height: 100px;
+	margin: 50px auto;
+		background-color: lightgrey;
+	/*text-align: center;*/
+	/*padding-top: 20px;*/
+
+}
+
+#startButton {
+	width: 120px;
+	height: 30px;
+	border-radius: 20px;
+	margin: 20px;
+}
+
+#submitButton {
+	width: 120px;
+	height: 30px;
+	border-radius: 20px;
+	margin: 20px ;
+}
+
+#input {
+	width: 100px;
+	height: 30px;
+	border-radius: 20px;
+	margin: 20px;
+
+}
+
+#hintButton {
+	width: 120px;
+	height: 30px;
+	border-radius: 20px;
+	margin: 20px;
+
+}
+
+#gameboard {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	width: 75%;
+	margin: 0 auto;
+	background-color: white;
+	border: 2px solid;
+}
+
+.brick{
+	border: 2px solid;
+	background-color: white;
+	margin: 150px auto;
+}
+
+#hintContainer {
+	margin: 100px auto;
+	background-color: red;
+}
