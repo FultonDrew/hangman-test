@@ -104,10 +104,11 @@ function startGame(){
       hintContainer.id = "hintContainer";
       hintBox.appendChild(hintContainer);
       
-      hintContainer.style.width = "200px*randomWord.hint.length";
-      hintContainer.style.height = "100px*randomWord.hint.length";
+      hintContainer.style.width = "300px*randomWord.hint.length";
+      hintContainer.style.height = "200px*randomWord.hint.length";
       hintContainer.style.display = "inline-block";
-      hintContainer.style.margin = "10px 10px 0 300px"
+      hintContainer.style.margin = "100px 10px 0 400px"
+      hintContainer.style.padding = "10px"
       hintContainer.style.backgroundColor = "lightgrey";
       hintContainer.style.fontSize = "1.5em"
       hintContainer.style.textAlign = "center"

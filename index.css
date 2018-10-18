@@ -57,6 +57,10 @@ body{
 
 }
 
+#hintBox {
+	margin: 0 auto;
+}
+
 #gameboard {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -73,7 +77,3 @@ body{
 	margin: 150px auto;
 }
 
-#hintContainer {
-	margin: 100px auto;
-	background-color: red;
-}
